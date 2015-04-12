@@ -1,0 +1,37 @@
+
+
+thead {
+	text-align: center;
+	font-weight: bold;
+}
+
+tbody th {  
+	font-weight: normal;
+   font-style: italic;
+}
+
+tbody tr:nth-child(even) {
+
+	background-color: LightBlue;
+}
+
+tbody tr:nth-child(odd) {
+
+	background-color: LightGreen;
+}
+
+
+tbody td:nth-child(2) {
+
+	color: red;
+}
+
+tbody td:nth-child(4) {
+
+	color: blue;
+}
+
+/* I found this code concept at http://csscreator.com/node/11816 */
+dt:hover + dd{
+	background-color: purple;
+}
