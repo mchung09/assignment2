@@ -35,3 +35,20 @@ tbody td:nth-child(4) {
 dt:hover + dd{
 	background-color: purple;
 }
+
+.outer-content {
+	position: relative;
+	top: 20px;
+	width: 75%;
+	background-color: pink;
+	
+}
+
+
+.inner-content {
+	position: relative;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	background-color: blue;
+	text-align: center;
+}
