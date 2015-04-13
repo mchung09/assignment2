@@ -54,9 +54,22 @@ dt:hover + dd{
 	text-align: center;
 }
 
+/*border styling is from the assigned readings: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
+form {
+	position: relative;
+	padding: 20px;
+    top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    
+}
+
 img {
     position: relative;
-    top: 50px;
+    top: 100px;
     float: left;
     width: 100px;
     height: 125px;
@@ -64,5 +77,5 @@ img {
 
 p {
     position: relative;
-    top: 50px;
+    top: 100px;
 }
