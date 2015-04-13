@@ -31,7 +31,7 @@ tbody td:nth-child(4) {
 	color: blue;
 }
 
-/* I found this code concept at http://csscreator.com/node/11816 */
+/* I found this hover concept at http://csscreator.com/node/11816 */
 dt:hover + dd{
 	background-color: purple;
 }
@@ -45,7 +45,7 @@ dt:hover + dd{
 	
 }
 
-/*I followed the instruction from Piazza post 61: https://piazza.com/class/i7nxjgezs1b2wt?cid=61 */
+/*I followed the professor instructions from Piazza post 61: https://piazza.com/class/i7nxjgezs1b2wt?cid=61 */
 .inner-content {
 	position: relative;
 	margin-left: 12.5%;
@@ -54,7 +54,7 @@ dt:hover + dd{
 	text-align: center;
 }
 
-/*border styling is from the assigned readings: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
+/*some border styling is referred from the assigned readings: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
 form {
 	position: relative;
 	padding: 20px;
