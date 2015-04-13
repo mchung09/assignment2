@@ -39,16 +39,30 @@ dt:hover + dd{
 .outer-content {
 	position: relative;
 	top: 20px;
+
 	width: 75%;
 	background-color: pink;
 	
 }
 
-
+/*I followed the instruction from Piazza post 61: https://piazza.com/class/i7nxjgezs1b2wt?cid=61 */
 .inner-content {
 	position: relative;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
 	background-color: blue;
 	text-align: center;
+}
+
+img {
+    position: relative;
+    top: 50px;
+    float: left;
+    width: 100px;
+    height: 125px;
+}
+
+p {
+    position: relative;
+    top: 50px;
 }
